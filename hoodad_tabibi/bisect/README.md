@@ -5,7 +5,8 @@ Run `git bisect --help` for Docs
 ```
 git bisect start
 ```
-This will move you to a commit
+
+This will move you to a commit.<br>
 If the current commit is bad you should type `git bisect bad`<br>
 If you are happy with the current commit you type `git bisect good`<br>
 Continue this process until you find the commit that introduced the bug.
