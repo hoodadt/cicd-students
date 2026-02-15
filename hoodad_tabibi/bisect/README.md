@@ -1,13 +1,14 @@
-`git bisect` helps you find the commit that introduced a bug by using binary search.
-`git bisect --help` for Docs
+`git bisect` helps you find the commit that introduced a bug by using binary search.<br>
+Run `git bisect --help` for Docs
 
 ### Start
 ```
 git bisect start
 ```
-If the current commit is bad you should type `git bisect bad`
-If you are happy with current commit you type `git bisect good`
-Continue this process to find the commit that introduce this bug
+This will move you to a commit
+If the current commit is bad you should type `git bisect bad`<br>
+If you are happy with the current commit you type `git bisect good`<br>
+Continue this process until you find the commit that introduced the bug.
 
 ### Return to HEAD
 `git bisect reset`
